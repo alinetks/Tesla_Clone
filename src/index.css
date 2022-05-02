@@ -1,0 +1,32 @@
+* {
+    font-family: 'Roboto',  sans-serif;
+    color: #393c41;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* // Alternative effect in botton
+// Need set "animation: animateDown infinite 1.5s" in end button
+// And need set "overflow: hidden" in end button too
+// @keyframes animateDown {
+//     0%, 20%, 50%, 80%, 100% {
+//         trasform: traslateY(0);
+//     } 
+//     40% {
+//         trasform: traslateY(5px);
+//     }
+
+//     60% {
+//         trasform: traslateY(3px);
+//     }
+// } */
